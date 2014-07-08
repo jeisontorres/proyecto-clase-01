@@ -1,0 +1,32 @@
+para colocar texto es con la etiqueta p, strong es la etiqueta para negrilla no b que significa bold, esto debido a que bold hace referencia a diseño
+id= "cualquier cosa" el id es para cuando tengo elementos que no se van a repetir, es una forma irrepetible de identificar los elementos 
+<figure> Etiqueta semantica que sirve para colocar imagenes sin usar <div> luego de esta se puede colocar <id> 
+<ul> para hacer menus traduce lista desordenada a esta etiqueta de menu se le coloca un "item de lista" cuya etiqueta es <li>, dentro del <li> se colocan los subtitulos del menu estos subtitulos deben tener una etiqueta      <a href="#"> donde a es el enlace, href es el atributo de a donde va a ir el enlace, si se le coloca la etiqueta "#" eso significa que el enlace va a la misma pagina esto cuando tenemos na url temporal  
+al section se le coloca el "id" por que no se si voy a tener varioas sections en mi pagina.
+al "article" le coloco una "class" para llamar un estilo la direfencia entre este y el "id" es que el "class" se puede repetir en multiples ocaciones y el "id" es unico e irrepetible 
+normalize es un estilo para que todos lo navegadores cargen bien el html de la pagina y asi se ve mejor una vez descargado de la pagina se inserta en el documendo html siempre debajo del <title> y se llama como un estilo 
+Para pantallas retina las imagenes deben ser usadas al doble del tamaño, esto quiere decir que si tengo una pantalla normal y mi imagen mide 200x200 en retina se estiraria al doble 400x400, para esto exporto la imagen de 400x400 y la encojo en css o en html  
+se pueden colocar imagenes de fondo en las paginas utilizando la url en la junto con el backgraund.
+Hay tres tipos de estilos el primero es un estilo de etiqueta y se declara así: etiqueta 
+{
+	atributo: valor;
+}
+El segundo es:
+estilo de id y se declara:
+#nombreid
+{
+	 atributo: valor;
+} 
+El tercero es con punto esto es una clase con numeral es id
+.nombreid
+{
+	atributo: valor;
+}
+los estilos se organizan de forma elfabetica "a-z" 
+las etiquetas van por encima de los id 
+en css se hace comentarios así /*comentario*/
+Trabajar con porcentajes "em" en la tipografia, em es la medida de la letra m que es la mas cuadrada del alfabeto lo que hace el sistema es buscar en el arbol html el elemento mas cercado en el que yo defini una fuente en pixeles cuando lo encuentra asume ese tamaño como 1 em, para el caso 1 em es 16px 2 em seria 32px cuando son 18? esto seria igual a 1.1 y esto es lo ideal para trabajar resposible design por que si cambio el tamaño de la fuente en la que se basan las demas pues todas cambiarian automaticamente sin tener yo que hacerlo una por una.
+cuando se ponene a flotar elelmentos el contenedro general deja de reconocerlos para que los vuelva a reconocer se le coloca la etiqueta overflow: hidden;
+por defecto los elementos html tienen una posición por defecto de "static" cuando se les da la propiedad de "relative" lo que hace es darle cuatro caracteristicas nuevas que son: Top, Left, Right y botton, lo que hace es tomar como posicion 00 su contenenor que puede ser el body o otra caja
+position absulute, lo que hace este atributo es resetear los margenens superior, inferior , iz y derecho y resetea la posicion y coloca como punto 00 el contenedor relativo mas cercado en el arbol html si no hay ninguno pone como posicion 00 el body 
+-21
