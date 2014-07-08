@@ -89,7 +89,8 @@ footer p:last-child:before
 }
 header 
 {
-	background: #344b54;
+	background: black;
+	backgroun: #344b54;
 	color: white;
 	overflow: hidden;
 	padding: 0,5em;
