@@ -30,3 +30,9 @@ cuando se ponene a flotar elelmentos el contenedro general deja de reconocerlos 
 por defecto los elementos html tienen una posición por defecto de "static" cuando se les da la propiedad de "relative" lo que hace es darle cuatro caracteristicas nuevas que son: Top, Left, Right y botton, lo que hace es tomar como posicion 00 su contenenor que puede ser el body o otra caja
 position absulute, lo que hace este atributo es resetear los margenens superior, inferior , iz y derecho y resetea la posicion y coloca como punto 00 el contenedor relativo mas cercado en el arbol html si no hay ninguno pone como posicion 00 el body 
 -21
+viewport= toda el area que se ve en el navegador donse se ven los diseños, las paginas, tambien es una etiqueta de meta datos como meta "charsert" y meta "despription"
+mea qrey afectan los estilos de ciertas caracteristicas de mi pagina hay varias form,as de colocarlos uina puede ser en una hoja de estilo aparte pero lo mejor es añadirlos a la hoja ya creada en la parte inferior despuesde todos los estilos ya creados, y nombrandolas, como @medi "lo que voy a alterar"
+para aplicar el efecto transformar toca aplicarle un prefijo que varia segun el navegador
+prefijos Webkit-transform= crome
+moz-transform=mozila 
+ms-transfor=explorer
