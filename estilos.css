@@ -333,7 +333,7 @@ nav ul #publicar_nav a
 		float: right;
 		margin-right: 5em;
 		width: 40%;
-		border: 1px solid red;
+		/*border: 1px solid red;*/
 		padding-top: 1em;
 	}
 	aside video 
