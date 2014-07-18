@@ -60,9 +60,6 @@
 }
 	
 }
-
-
-
 a
 {
 	color: #22bce0;
@@ -152,6 +149,7 @@ header #logo img:hover
 	-webkit-transform: rotate(360deg);
 	
 }
+
 nav 
 {
 	background: #80bca3;
@@ -172,7 +170,7 @@ nav ul li
 {
 	display: inline-block;
 	margin: 0 0.5em 0 0;
-	-webkit-transition:.5s;
+	-webkit-transition:.3s;
 }
 nav ul li a
 {
@@ -307,6 +305,23 @@ nav ul #publicar_nav a
 	position: relative;
 	margin-right: 0.5em;
 	
+}
+
+/*FORMULARIO*/
+
+.formulario
+{
+	display: none;
+	background: #dd4f24;
+	padding: 0.5em;
+	text-align: right;
+}
+.formulario input
+{
+	border: 1px #888;	
+	padding: 0.2em;
+	margin: 0.1em;
+	border-radius: 5px;
 }
 
 @media screen and (min-width: 800px) {

@@ -36,3 +36,6 @@ para aplicar el efecto transformar toca aplicarle un prefijo que varia segun el 
 prefijos Webkit-transform= crome
 moz-transform=mozila 
 ms-transfor=explorer
+clase 4 "formularios"
+etiqueta= <form> </form> y <input> </input> son las casillas 
+para que aparescan los nombres al lado de las casillas se coloca <label form="titulo input">titulo id</label> o para ahorrar texto se coloca dentor del mismo input un placeholder="nombre id" de esta forma dentro de la casilla aparece el nombre del requerimiento de la misma 
