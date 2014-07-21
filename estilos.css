@@ -311,17 +311,27 @@ nav ul #publicar_nav a
 
 .formulario
 {
-	display: none;
+	/*display: none;*/
 	background: #dd4f24;
 	padding: 0.5em;
 	text-align: right;
 }
 .formulario input
 {
-	border: 1px #888;	
-	padding: 0.2em;
+	border: 1px solid #888;	
+	padding: 0.4em;
 	margin: 0.1em;
 	border-radius: 5px;
+}
+.formulario input[type="submit"]
+{
+	background: #22bce0;
+	border-radius: 5px;
+	box-shadow: rgba( 0, 0, 0, 0.6 ) 2px 2px 2px;
+	font-style: italic;
+	text-shadow: rgba( 0, 0, 0, 0.5 ) 2px 2px 2px;
+	color:white;
+	padding: 0.5em;
 }
 
 @media screen and (min-width: 800px) {

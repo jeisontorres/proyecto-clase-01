@@ -38,4 +38,26 @@ moz-transform=mozila
 ms-transfor=explorer
 clase 4 "formularios"
 etiqueta= <form> </form> y <input> </input> son las casillas 
-para que aparescan los nombres al lado de las casillas se coloca <label form="titulo input">titulo id</label> o para ahorrar texto se coloca dentor del mismo input un placeholder="nombre id" de esta forma dentro de la casilla aparece el nombre del requerimiento de la misma 
+para que aparescan los nombres al lado de las casillas se coloca <label form="titulo input">titulo id</label> o para ahorrar texto se coloca dentor del mismo input un placeholder="nombre id" de esta forma dentro de la casilla aparece el nombre del requerimiento de la misma
+tipos de <input> en html5:
+color
+date 
+datetime
+datetime-local
+email
+month
+number
+range
+search
+tel
+time 
+url
+sumit= es el boton de agrgar o enviar 
+tipos de variables 
+var numero= "numero"
+var texto= "texto"
+var objeto={}
+var booleano= false o true
+var arreglo= [1,2,3]
+
+
