@@ -58,6 +58,7 @@ var numero= "numero"
 var texto= "texto"
 var objeto={}
 var booleano= false o true
-var arreglo= [1,2,3]
+var arreglo= [1,2,3], es una lista de cosas que se considera arreglada 
+52 minuto
 
 

@@ -311,7 +311,7 @@ nav ul #publicar_nav a
 
 .formulario
 {
-	/*display: none;*/
+	display: none;
 	background: #dd4f24;
 	padding: 0.5em;
 	text-align: right;
