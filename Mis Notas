@@ -59,6 +59,33 @@ var texto= "texto"
 var objeto={}
 var booleano= false o true
 var arreglo= [1,2,3], es una lista de cosas que se considera arreglada 
-52 minuto
+efectos css3
+FILTROS FOTOGRAFICOS
+DESENFOQUE
+-webkit-filter:blur(3px);
+BRILLO
+-webkit-filter:brightness(2);
+CONTRASTE 
+-webkit-filter:contrast(3);
+ROTAR COLOR 
+-webkit-filter:hue-rotate(50deg);
+EFECTO INVERTIR
+-webkit-filter:invert(100%);
+EFECTO OPACIDAD
+-webkit-filter:opacity(50%);
+SATURACION
+-webkit-filter:saturate(5);
+-webkit-filter:sepia(4%)
+				grayscale(3%)="gris"
+				estos mismo efecto fucionana con los videos 
+
+EFECTOS CSS3 (HOVER-BEFORE) 
+ESQUINA PAGINA
+-webkit-transform: skewX(5deg); X ES EL EJE PARA QUE SE MUEVA 
+
+
+
+
+
 
 
